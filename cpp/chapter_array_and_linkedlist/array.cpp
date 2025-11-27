@@ -16,7 +16,7 @@ int randomAccess(int *nums, int size) {
 }
 
 /* 扩展数组长度 */
-int *extend(int *nums, int size, int enlarge) {
+int* extend(int *nums, int size, int enlarge) {
     // 初始化一个扩展长度后的数组
     int *res = new int[size + enlarge];
     // 将原数组中的所有元素复制到新数组
